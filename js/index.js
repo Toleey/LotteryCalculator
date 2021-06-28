@@ -14,12 +14,14 @@ window.onload = function (){
         var blueBall = randomNum(limitBlueBall.value,numBlueBall.value);
         alert(redBall)
         alert(blueBall)
+        redBallValue.innerText=redBall
+        blueBallValue.innerText=blueBall
      
 
     }
 }
     function randomNum(maxNum,limit){
-        var numArray = new Array();
+        var numArray = [];
         for (var i = 0;i < limit;i++){
             numArray[i] = Math.floor(Math.random()*maxNum);
         }

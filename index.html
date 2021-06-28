@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <title>彩票随机数生成器</title>
@@ -8,33 +8,33 @@
     <script type="application/javascript" src="js/jquery-3.6.0.js"></script>
 </head>
 <body>
+<div class="main">
+    <form name="goodLuck">
+        <div>
+            请输入范围（默认从1开始）
+        </div>
+        <input type="text" name="redBall" id="limitRedBall">
+        <div>
+            请输入所需要几个数据
+        </div>
+        <input type="text" name="blueBal" id="numRedBall">
 
-<form name="goodLuck">
-    <div>
-        请输入范围（默认从1开始）
-    </div>
-    <input type="text" name="redBall" id="limitRedBall">
-    <div>
-        请输入所需要几个数据
-    </div>
-    <input type="text" name="blueBal" id="numRedBall">
+        <div>
+            请输入范围（默认从1开始）
+        </div>
+        <input type="text" name="redBall" id="limitBlueBall">
+        <div>
+            请输入所需要几个数据
+        </div>
+        <input type="text" name="blueBal" id="numBlueBall">
+        <br />
+        <button id="getMoney">确认</button>
+    </form>
 
-    <div>
-        请输入范围（默认从1开始）
-    </div>
-    <input type="text" name="redBall" id="limitBlueBall">
-    <div>
-        请输入所需要几个数据
-    </div>
-    <input type="text" name="blueBal" id="numBlueBall">
-    <br />
-    <button id="getMoney">确认</button>
-</form>
-
-    <div>红球号码</div>
-    <div id="redBallValue"></div>
-    <div>蓝球号码</div>
-    <div id="blueBallValue"></div>
-
+        <div>红球号码</div>
+        <div id="redBallValue"></div>
+        <div>蓝球号码</div>
+        <div id="blueBallValue"></div>
+</div>
 </body>
 </html>
